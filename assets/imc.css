@@ -1,0 +1,27 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+        form {
+            width: 300px;
+            text-align: center;
+            padding: 50px auto;
+        }
+
+        .container {
+            height: 200px;
+            width: 300px;
+            border: 2px solid color #130a0a;
+            background-color: rgb(196, 197, 255);
+            padding: 40px;
+            margin: 0 auto;
+            cursor: pointer;
+            
+        }
+   
