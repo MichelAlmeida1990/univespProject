@@ -30,7 +30,7 @@ body {
 header {
     background-image:linear-gradient(to bottom, var(--cor2), var(--cor3));
     color: var(--cor1);
-    padding: 20px 0;
+    padding: 15px 0;
     height:70px;
     width: 100%;
     display: flex;
@@ -41,8 +41,20 @@ header {
     
 }
 
+nav {
+    background-color: #606060dd;
+    border-radius: 5px 5px;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.499);
+    
+    
+}
 nav a {
     transition: font-size 0.3s ease;
+    padding: 10px;
+    text-decoration: none;
+    text-align:left ;
+    font-weight: bold;
+    border-radius: 5px;   
 }
 
 nav a:hover {
@@ -136,7 +148,7 @@ main{
 
 .texto-central:hover {
     font-size: 35px;
-    color: var(--cor3);
+    color: black;
     line-height: 45px;
     margin-left: 5px;
     cursor:  pointer;
