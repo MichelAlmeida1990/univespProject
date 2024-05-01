@@ -22,7 +22,7 @@ body {
 
 
 .container {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -41,25 +41,7 @@ header {
     
 }
 
-nav {
-    background-color: #606060dd;
-    border-radius: 5px 5px;
-    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.499);
-    
-    
-}
-nav a {
-    transition: font-size 0.3s ease;
-    padding: 10px;
-    text-decoration: none;
-    text-align:left ;
-    font-weight: bold;
-    border-radius: 5px;   
-}
 
-nav a:hover {
-    font-size: 19px;
-}
 
 .titulo {
     font-size: 32px;
@@ -76,10 +58,14 @@ header,nav  :hover{
 
 header h1 {
     float: left;
+    padding-left: 25px;
+    padding-right: 5px;
 }
 
 header nav {
     float: right;
+    padding-right: 30px;
+    padding-top: 7px;
 }
 
 header nav ul {
@@ -88,11 +74,11 @@ header nav ul {
 
 header nav ul li {
     display: inline;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #030303;
     text-decoration: none;
 }
 
@@ -100,8 +86,9 @@ header nav ul li a {
 /* o que fazer Quando passar o mouse em cima do link*/
 header a:hover {
     color: black;
-    font-size: 20px;
-    transition-duration: .8s;
+    font-size: 18px;
+    font-weight: bolder;
+    transition-duration: .9s;
     text-decoration: underline ;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.537);
 }
@@ -122,16 +109,11 @@ main{
 
 /* Imagem principal*/
 .banner {
-    background: url(img/fitness.png-fotor-2024040222528.png);
-    background-size:cover ;
-    color: #fff;
+    background: #fff url(img/fitness.png-fotor-2024040222528.png) center top no-repeat fixed;
+    background-size:cover ; 
     text-align: center;
-    padding: 100px 0;
-    height: 500px;
-    
-    
-    padding: 30px 0;
-    height: 850px;
+    padding: 300px 0;
+    height: 90vh;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
     border-radius: 10px;
 }
@@ -148,7 +130,7 @@ main{
 
 .texto-central:hover {
     font-size: 35px;
-    color: black;
+    color:  black;
     line-height: 45px;
     margin-left: 5px;
     cursor:  pointer;
