@@ -118,23 +118,26 @@ main{
     border-radius: 10px;
 }
 
+
 .texto-central {
-    font-size: 30px;
+    font-size: 20px;
     color: #fcf2f2;
     line-height: 45px;
     margin-left: 5px;
-    opacity: 0.5;
+    opacity: 0.2;
     transition: font-size 0.3s ease;
    
 }
 
 .texto-central:hover {
-    font-size: 35px;
-    color:  black;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    color:var(--cor2);
     line-height: 45px;
     margin-left: 5px;
     cursor:  pointer;
     text-decoration: none;
+    opacity:1;
     
 }
     
@@ -193,4 +196,35 @@ footer {
     padding: 10px 0;
     text-align: center;
     width: 100%;
+}
+
+
+/* Configurações da pagina 'fale-conosco'*/
+
+#titulo1{
+    float:none;
+    text-align: center;
+    margin-top: 0px;
+    color:var(--cor3);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.443);
+    background-image:linear-gradient(to top, black, var(--cor1));
+}
+
+.cadastrar-se p{
+    margin-top:1px;
+    text-align: center;
+    opacity: .7;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    color:var(--cor2);
+}
+
+.banner1 {
+    background: #fff url(img/fitness.png-fotor-2024040222528.png) center top no-repeat fixed;
+    background-size:cover ;
+    text-align: center;
+    padding: 300px ;
+    height: 90vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
 }
